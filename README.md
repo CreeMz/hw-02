@@ -43,6 +43,7 @@ systemctl enable zabbix-agent
 ```
 
 Далее в /etc/zabbix/zabbix_agentd.conf меняем параметр "server=" на сервер забикс.
+![grep параметра из файла](/images/server=.png)
 
 Через некторое время мы видим что агент появился в сети и данные идут на сервер:
 
