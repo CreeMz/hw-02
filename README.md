@@ -48,4 +48,6 @@ systemctl enable zabbix-agent
 Через некторое время мы видим что агент появился в сети и данные идут на сервер:
 
 ![Активный агент zabbix](/images/hosts-zabbix.png)
+![Агент подключен к серверу zabbix](/images/agent-connect.png)
 ![Данные агента zabbix](/images/latest-date-zabbix.png)
+![Данные агента с сервера](/images/zabbix-server-data.png)
